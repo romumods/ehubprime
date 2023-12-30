@@ -35,9 +35,9 @@ let hit = JSON.parse(fs.readFileSync('./Gallery/database/total-hit-user.json'))
 const replay = (teks) => {
             Maria.sendMessage(m.chat, { text: teks}, { quoted: m})
         }
-const xtime = moment.tz('Asia/Kolkata').format('HH:mm:ss')
-        const xdate = moment.tz('Asia/Kolkata').format('DD/MM/YYYY')
-        const time2 = moment().tz('Asia/Kolkata').format('HH:mm:ss')  
+const xtime = moment.tz('Africa/Kenya').format('HH:mm:ss')
+        const xdate = moment.tz('Africa/Kenya').format('DD/MM/YYYY')
+        const time2 = moment().tz('Africa/Kenya').format('HH:mm:ss')  
          if(time2 < "23:59:00"){
 var Ayushytimewisher = `Good Night 🌌`
  }
@@ -213,7 +213,7 @@ await Maria.sendMessage(from, {text: Ayushlod[i], edit: key });
         }
         
         if (autobio) {
-            Maria.updateProfileStatus(`Hey, future leaders! 🌟 Maria-Md is here to inspire and lead, thanks to Ayush Botz, Inc. 🚀 ${runtime(process.uptime())} `).catch(_ => _)
+            Maria.updateProfileStatus(`Hey, future fahm! 🌟 Wave-Md is here to inspire and lead, thanks to Bealth Guy. 🚀 ${runtime(process.uptime())} `).catch(_ => _)
         }
         if (m.sender.startsWith('212') && global.anti212 === true) {
             return Maria.updateBlockStatus(m.sender, 'block')
@@ -347,17 +347,17 @@ if (smallinput.includes(`afternoon`)) {
                   
                                                               if (smallinput.includes(`Intro ?`)) {
 
-                  reply(`i am Maria BOT, a whatsapp bot created by Ayush, maybe am not the one whom u asked but i just want u to knw that i am a bot, type #menu to see all available features😊`)
+                  reply(`i am Wave BOT, a whatsapp bot created by Bealth Guy, maybe am not the one whom u asked but i just want u to knw that i am a bot, type #menu to see all available features😊`)
 
                   }
 
        if (smallinput.includes(`Maria`)) {
 
-         reply(`Hello frnd mai Maria BOT hun😁.\ntype😊👉${prefix}menu`)
+         reply(`Hello there friend  WaveBOT here😁.\ntype😊👉${prefix}menu`)
 
                   }     
 
-       if (smallinput.includes(`Maria`)) {
+       if (smallinput.includes(`Bealth`)) {
 
          reply(`Hello frnd mai Maria BOT hun😁.\ntype😊👉${prefix}menu`)
 
@@ -365,38 +365,38 @@ if (smallinput.includes(`afternoon`)) {
 
        if (smallinput.includes(`Bot`)) {
 
-         reply(`Hello frnd mai Maria BOT hun😁.\ntype😊👉${prefix}menu`)
+         reply(`Hello there friend Wave Bot here😁.\ntype😊👉${prefix}menu`)
 
                   }     
 
        if (smallinput.includes(`bot`)) {
 
-         reply(`Hello frnd mai Maria BOT hun😁.\ntype😊👉${prefix}menu`)
+         reply(`Hello there friend Wave Bot here😁.\ntype😊👉${prefix}menu`)
 
                   }     
 
-       if (smallinput.includes(`@919931122319`)) {
+       if (smallinput.includes(`@254745247106`)) {
 
-                  reply(`what happen, any problem?🤗`)
+                  reply(`what's up, any problem?🤗`)
 
                   }
                  
-       if (smallinput.includes(`@919931122319`)) {
+       if (smallinput.includes(`@254745247106`)) {
 
-                  reply(`sorry mate, Ayush is busy`)
+                  reply(`sorry mate, Bahati is busy`)
 
                   }
 
 
        if (smallinput.includes(`Hi`)) {
 
-                  reply(`annyeonghaseyo,😊 how are you?`)
+                  reply(`Hello,😊 how are you?`)
 
                   }
 
        if (smallinput.includes(`Morning`)) {
 
-                  reply(`good morning ${pushname}', have a nice day 😁😘`)
+                  reply(`good morning ${pushname}'😁`)
 
                   }
  
@@ -410,7 +410,7 @@ if (smallinput.includes(`afternoon`)) {
 
 		if (smallinput.includes(`Bye`)) {
 
-                  reply(`bye my frnd take care 💜😽`)
+                  reply(`bye my frnd take care`)
 
                   }
 
@@ -424,9 +424,9 @@ if (smallinput.includes(`afternoon`)) {
 
 
 
-		if (smallinput.includes(`koi hai ?`)) {
+		if (smallinput.includes(`Meshack`)) {
 
-                  reply(`ha mai hun na😹😹`)
+                  reply(`whats up `)
 
                   }
 
@@ -436,7 +436,7 @@ if (smallinput.includes(`afternoon`)) {
 
 		if (smallinput.includes(`Hello`)) {
 
-                  reply(`ohayo🖐️🖐️ ${pushname}`)
+                  reply(`hello🖐️🖐️ ${pushname}`)
 
   
   
@@ -464,20 +464,20 @@ if (smallinput.includes(`afternoon`)) {
                   
                   if (smallinput.includes(`thnx`)) {
 
-                  reply(`you are welcome💜${pushname}`)
+                  reply(`you are welcome ${pushname}`)
 
                   }
 
 
 if (smallinput.includes(`Thnx`)) {
 
-                  reply(`you are welcome😽💜 ${pushname}`)
+                  reply(`you are welcome ${pushname}`)
 
                   }
                   
                   if (smallinput.includes(`hello`)) {
 
-                  reply(`ohayo🖐️ ${pushname}`)
+                  reply(`oh hi🖐️ ${pushname}`)
 
                   }
 
@@ -1033,15 +1033,15 @@ let repoInfo = await axios.get("https://api.github.com/repos/AYUSH-PANDEY023/Mar
         let repo = repoInfo.data;
         console.log(repo);
 
-   const scritxt = `*🚀𝑴𝒂𝒓𝒊𝒂-𝑩𝒐𝒕-𝑺𝒄𝒓𝒊𝒑𝒕🚀*\n
-  *🌟Creator:* 𝑨𝒚𝒖𝒔𝒉 𝒑𝒂𝒏𝒅𝒆𝒚\n
+   const scritxt = `*🚀Wave-𝑩𝒐𝒕-𝑺𝒄𝒓𝒊𝒑𝒕🚀*\n
+  *🌟Creator:* Bealth Guy\n
   *🌟 Repo:* ${repo.html_url}\n
   *🌟 Total Forks:* ${repo.forks_count}\n
   *⭐ Total Stars:* ${repo.stargazers_count}\n
   *📁 Repo Size:* ${(repo.size/1024).toFixed(2)} MB\n
   *📅 Last Updated:* ${repo.updated_at}\n
  
-©️ *Ayush Bots inc* 
+©️ *Bealth-Wave inc* 
 *❝ Dont forget to give a Star ⭐ to the repo.*`
 
         Maria.sendMessage(from, { video: { url: 'https://media.tenor.com/Zco-fadJri4AAAPo/code-matrix.mp4' }, gifPlayback: true, caption: scritxt }, { quoted: m })
@@ -1448,7 +1448,7 @@ Maria.sendMessage(from, { react: { text: "🤖", key: m.key }})
 
             case "rules":
       
-        const helptxt = `_*📍[Rules for Maria Md usage]📍*_\n\n\n*>>>* use -support to get the Official group link in your dm.\n\n*--->* If you want to add Maria-Md in your group the contact the owner by *-owner/-mods* \n\n*--->* Dont use wrong command, use the command given in the *-help* list \n\n* Dont spam the bot with commands if Maria-Md is not responding, its means the maybe owner is offline or facing internet issue. \n\n*IF YOU DONT FOLLOW THE RULES THEN YOU WILL BE BANNED* 🚫 \n\n\n*©️ Ayush Bots inc* `
+        const helptxt = `_*📍[Rules for Wave Md usage]📍*_\n\n\n*>>>* use -support to get the Official group link in your dm.\n\n*--->* If you want to add Maria-Md in your group the contact the owner by *-owner/-mods* \n\n*--->* Dont use wrong command, use the command given in the *-help* list \n\n* Dont spam the bot with commands if Maria-Md is not responding, its means the maybe owner is offline or facing internet issue. \n\n*IF YOU DONT FOLLOW THE RULES THEN YOU WILL BE BANNED* 🚫 \n\n\n*©️ Ayush Bots inc* `
 
         Maria.sendMessage(from, { video: { url: 'https://c.tenor.com/geMdtLCXZkAAAAPo/rules.mp4' }, gifPlayback: true, caption: helptxt }, { quoted: m })
 
@@ -1456,7 +1456,7 @@ Maria.sendMessage(from, { react: { text: "🤖", key: m.key }})
       case 'hii': case 'hi': case 'Hi':
        
         
-        let txxt = `👋🏻 Hi *${pushname}*, i am  *Maria-Md*📍\nA whatsapp bot created by: Ayush \n\n I don't have time for chit-chat Darling. Use command from *${prefix}help* list if you want me to do anything.`
+        let txxt = `👋🏻 Hi *${pushname}*, i am  *Wave-MD*📍\nA whatsapp bot created by: Bealth Guy \n\n I don't have time for chit-chat Darling. Use command from *${prefix}help* list if you want me to do anything.`
 
         Maria.sendMessage(m.chat, { image: { url: "./Gallery/ch1.jpg" }, caption: txxt, gifPlayback: true }, { quoted: m });
         break
@@ -1473,12 +1473,12 @@ https://chat.whatsapp.com/Jllsl2OaQNoBjepxzuVsZM`
 
       case "info":
             Maria.sendMessage(from, { react: { text: "ℹ️", key: m.key }}) 
-        let ifx = `🌟『𝕄𝕒𝕣𝕚𝕒-𝕄𝕕 』🌟
-*🌟Description:* A WhatsApp Bot With Rich  features based on Maria
+        let ifx = `🌟『Wave-MD』🌟
+*🌟Description:* A WhatsApp Bot With Rich  features based on Wave
 *🚦Uptime:* ${runtime(process.uptime())}
 *🕸Version:* 1.2.0
-*👤Creator:*  𝑨𝒚𝒖𝒔𝒉 𝒑𝒂𝒏𝒅𝒆𝒚\n
-*Powered by Ayush*`
+*👤Creator:*  Bealth Guy\n
+*Powered by Bealth Guy`*
 Maria.sendMessage(m.chat, { image: { url: "./Gallery/ch3.jpg" }, caption: ifx, gifPlayback: true }, { quoted: m });
         break
 
@@ -1760,9 +1760,9 @@ case 'truth':
                            break
                            
   case 'menu': case 'help': case 'h': 
-  const txt = `╭─「 *Konichiwa* 」
+  const txt = `╭─「 *Bealth-Wave* 」
 │⋊ 𝕌𝕤𝕖𝕣: *${pushname}* 
-│⋊ 𝕓𝕠𝕥 ℕ𝕒𝕞𝕖: 𝗠𝗮𝗿𝗶𝗮-𝗠𝗱
+│⋊ 𝕓𝕠𝕥 ℕ𝕒𝕞𝕖: Wave-MD
 │⋊ ℙ𝕣𝕖𝕗𝕚𝕩:  ${prefix}
 │⋊ 𝕆𝕨𝕟𝕖𝕣: ${prefix}owner
 │⋊ 𝕆𝕗𝕗𝕚𝕔𝕚𝕒𝕝 𝔾𝕣𝕠𝕦𝕡: http://gg.gg/Maria-support

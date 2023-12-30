@@ -9,18 +9,18 @@ global.socialm = "GitHub: Kyle6012"
 global.location = "Kenyan"
 
 global.ownername = 'Kyle Meshack' //owner name
-global.botname = '𝐌𝐀𝐑𝐈𝐀-𝐌𝐃' //name of the bot
+global.botname = 'WAVE-𝐌𝐃' //name of the bot
 
 //sticker details
 global.stickername = 'Bealth-Wave Company_✰'
 global.packname = 'Sticker By'
-global.author = 'Maria Bot'
+global.author = 'Bealth Guy'
 //console view/theme
 global.themeemoji = '🧩'
 global.wm = "Bealth Guy."
 
 //theme link
-global.link = 'https://chat.whatsapp.com/Jllsl2OaQNoBjepxzuVsZM'
+global.link = 'www.instagram.com/bealth.guy/'
 
 //custom prefix
 global.prefa = ['.']
@@ -42,7 +42,7 @@ global.mess = {
     prem: '*This feature can be used by premium user only*',
     admin: '*This feature can be used by admin only*',
     botAdmin: '*This feature can only be used when the bot is a group admin* ',
-    owner: '*This feature can be used by owner only*',
+    owner: '*This feature can be used by Bealth Guy only*',
     group: '*This feature is only for groups*',
     private: '*This feature is only for private chats*',
     wait: '*In process...* ',    
