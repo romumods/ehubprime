@@ -118,6 +118,8 @@ cd Wave-MD
 
 yarn install
 
+rm -rf session 
+
 npm start
 
 ```
