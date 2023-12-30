@@ -1,24 +1,14 @@
-<a href="https://ibb.co/pQNpmwN"><img src="https://i.ibb.co/xYwQ4Lw/cheemspic.jpg" alt="Maria-Md" border="0"></a>
-<h1 align="center">⭐Maria-Md⭐<br></h1>
+
+<h1 align="center">Wave-MD<br></h1>
 
 <p align="center"> 
-  Konochiwa Senpai, I am "Maria md " a WhatsApp bot made by Ayush to do everything that is possible on WhatsApp based on WhatsApp Multi Device(MD) Support.
+  Hello, I am "Wave md" a WhatsApp bot made by Kyle6012 and Bealth Guy to do everything that is possible on WhatsApp based on WhatsApp Multi Device(MD) Support.
 </p>
 </br>
 
 ### ✧✧ This bot is still under development so if you want to recode/modify it, pls check this main repo once in 3 days because i am continuously debugging it and making major changes in it.
 </br>
-## ✧✧✧ What' new v1.0.2?
 
-```
-1. pinterest added ✅️
-2. Dalle added ✅️
-3. self/public mode added ✅️
-4. nsfw added ✅️
-5. auto react added ✅️
-🔻More features and improvements!
-
--regards Ayush
 ```
 </br>
 
@@ -26,7 +16,7 @@
 
 <p align="center">
 
-<a href="https://api.whatsapp.com/send?phone=919931122319&text=𝘩𝘦𝘭𝘭𝘰+𝘮𝘢𝘴𝘵𝘦𝘳"><img src="https://img.shields.io/badge/Contact Ayush-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+<a href="https://api.whatsapp.com/send?phone=254745257106&text=𝘩𝘦𝘭𝘭𝘰+𝘮𝘢𝘴𝘵𝘦𝘳"><img src="https://img.shields.io/badge/Contact bealth guy-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 
 </p>
 
@@ -42,7 +32,7 @@
 
 # Setup For Deployment 👇
 
-- FORK THE REPOSITORY [Here](https://github.com/AYUSH-PANDEY023/Maria-Md/fork)
+- FORK THE REPOSITORY [Here](https://github.com/Kyle6012/Wave-MD/fork)
 
 
 ## ` Pair with WhatsApp`
@@ -58,7 +48,7 @@
 
 
 
-<a href="https://heroku.com/deploy?template=https://github.com/AYUSH-PANDEY023/Maria-Md">
+<a href="https://heroku.com/deploy?template=https://github.com/Kyle6012/Wave-MD">
     <img src="https://www.herokucdn.com/deploy/button.png" width="160px" alt="Deploy on Heroku" >
     </a>
 
@@ -125,9 +115,9 @@ pkg install yarn
 
 pkg install imagemagick -y
 
-git clone https://github.com/AYUSH-PANDEY023/Maria-Md
+git clone https://github.com/Kyle6012/Wave-MD
 
-cd Maria-Md
+cd Wave-MD
 
 rm -rf session
 
