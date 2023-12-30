@@ -116,8 +116,6 @@ git clone https://github.com/Kyle6012/Wave-MD
 
 cd Wave-MD
 
-rm -rf session
-
 yarn install
 
 npm start
