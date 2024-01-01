@@ -76,12 +76,12 @@ const {  state, saveCreds } =await useMultiFileAuthState(`./session`)
             process.exit(0)
          }
       } else {
-         phoneNumber = await question(chalk.bgBlack(chalk.greenBright(`Your WhatsApp bot number\nFor example: +919931122319 : `)))
+         phoneNumber = await question(chalk.bgBlack(chalk.greenBright(`Your WhatsApp bot number\nFor example: 254745247106: `)))
          phoneNumber = phoneNumber.replace(/[^0-9]/g, '')
 
          // Ask again when entering the wrong number
          if (!Object.keys(PHONENUMBER_MCC).some(v => phoneNumber.startsWith(v))) {
-            console.log(chalk.bgBlack(chalk.redBright("Start with country code of your WhatsApp Number, Example : +919931122319")))
+            console.log(chalk.bgBlack(chalk.redBright("Start with country code of your WhatsApp Number, Example : 254745247106")))
 
             phoneNumber = await question(chalk.bgBlack(chalk.greenBright(`Your WhatsApp bot number please\nFor example: +919931122319: `)))
             phoneNumber = phoneNumber.replace(/[^0-9]/g, '')
@@ -160,7 +160,7 @@ const {  state, saveCreds } =await useMultiFileAuthState(`./session`)
 Maria.ev.on("connection.update",async  (s) => {
         const { connection, lastDisconnect } = s
         if (connection == "open") {
-console.log(chalk.green('🟨Welcome to Maria-md'));
+console.log(chalk.green('🟨Welcome to Wave-MD'));
 console.log(chalk.gray('\n\n🚀Initializing...'));
 console.log(chalk.cyan('\n\n🧩Connected'));
 
@@ -333,8 +333,8 @@ Maria.sendMessage(anu.id,
 "sourceUrl": `${link}`}}})
 } else if (anu.action == 'promote') {
 const Mariabuffer = await getBuffer(ppuser)
-const Mariatime = moment.tz('Asia/Kolkata').format('HH:mm:ss')
-const Mariadate = moment.tz('Asia/Kolkata').format('DD/MM/YYYY')
+const Mariatime = moment.tz('Africa/Nairobi').format('HH:mm:ss')
+const Mariadate = moment.tz('Africa/Nairobi').format('DD/MM/YYYY')
 let MariaName = num
 Mariabody = ` 𝗖𝗼𝗻𝗴𝗿𝗮𝘁𝘀🎉 @${MariaName.split("@")[0]}, you have been *promoted* to *admin* 🥳`
    Maria.sendMessage(anu.id,
