@@ -6,7 +6,6 @@
 </p>
 </br>
 
-### ✧✧ This bot is still under development so if you want to recode/modify it, pls check this main repo once in 3 days because i am continuously debugging it and making major changes in it.
 
 
 ## ```Connect With Me```
