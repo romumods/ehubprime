@@ -1,5 +1,5 @@
 {
-    "name": "Maria-Bot",
+    "name": "Wave-Bot",
     "version": "1.0.0",
     "description": "WhatsApp Bot Using Nodejs",
     "main": "index.js",
@@ -13,8 +13,8 @@
     "scripts": {
         "start": "node index.js"
     },
-    "author": "Ayush",
-    "license": "MIT",
+    "author": "Bealth Guy",
+    "license": "GPL",
     "dependencies": {
         "@adiwajshing/keyed-db": "^0.2.4",
         "@hapi/boom": "^10.0.1",
