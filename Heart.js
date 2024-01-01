@@ -35,9 +35,9 @@ let hit = JSON.parse(fs.readFileSync('./Gallery/database/total-hit-user.json'))
 const replay = (teks) => {
             Maria.sendMessage(m.chat, { text: teks}, { quoted: m})
         }
-const xtime = moment.tz('Africa/Kenya').format('HH:mm:ss')
-        const xdate = moment.tz('Africa/Kenya').format('DD/MM/YYYY')
-        const time2 = moment().tz('Africa/Kenya').format('HH:mm:ss')  
+const xtime = moment.tz('Africa/Nairobi').format('HH:mm:ss')
+        const xdate = moment.tz('Africa/Nairobi').format('DD/MM/YYYY')
+        const time2 = moment().tz('Africa/Nairobi').format('HH:mm:ss')  
          if(time2 < "23:59:00"){
 var Ayushytimewisher = `Good Night 🌌`
  }
@@ -329,7 +329,7 @@ if (smallinput.includes(`afternoon`)) {
                   
                   if (smallinput.includes(`morning`)) {
 
-                  reply(`good morning ${pushname}', have a nice day 😁😘`)
+                  reply(`good morning ${pushname}', `)
 
                   }
 
@@ -359,7 +359,7 @@ if (smallinput.includes(`afternoon`)) {
 
        if (smallinput.includes(`Bealth`)) {
 
-         reply(`Hello frnd mai Maria BOT hun😁.\ntype😊👉${prefix}menu`)
+         reply(`Hello 😁.\ntype😊👉${prefix}menu`)
 
                   }     
 
@@ -418,7 +418,7 @@ if (smallinput.includes(`afternoon`)) {
 
 		if (smallinput.includes(`bye `)) {
 
-                  reply(`bye my frnd, take care 😽😽`)
+                  reply(`bye my frnd`)
 
                   }
 
@@ -1007,7 +1007,7 @@ case 'tag': case 'tagall': case 'all':{
           let response = await Maria.groupInviteCode(m.chat);
           Maria.sendText(
             m.sender,
-            ` 🤖𝐵𝑜𝑡 𝑛𝑎𝑚𝑒:- Maria Bot\n\n🔖𝐺𝑟𝑜𝑢𝑝 𝑛𝑎𝑚𝑒:- ${groupMetadata.subject}\n\n🔰𝐺𝑟𝑜𝑢𝑝 𝑙𝑖𝑛𝑘:- https://chat.whatsapp.com/${response}`,
+            ` 🤖𝐵𝑜𝑡 𝑛𝑎𝑚𝑒:- Wave Bot\n\n🔖𝐺𝑟𝑜𝑢𝑝 𝑛𝑎𝑚𝑒:- ${groupMetadata.subject}\n\n🔰𝐺𝑟𝑜𝑢𝑝 𝑙𝑖𝑛𝑘:- https://chat.whatsapp.com/${response}`,
             m,
             { detectLink: true }
           );
@@ -1029,7 +1029,7 @@ case 'tag': case 'tagall': case 'all':{
             
             case "sc": case "script": case"repo": {
 const axios = require("axios");
-let repoInfo = await axios.get("https://api.github.com/repos/AYUSH-PANDEY023/Maria-MD");
+let repoInfo = await axios.get("https://api.github.com/repos/Kyle6012/Wave-MD");
         let repo = repoInfo.data;
         console.log(repo);
 
@@ -1448,7 +1448,7 @@ Maria.sendMessage(from, { react: { text: "🤖", key: m.key }})
 
             case "rules":
       
-        const helptxt = `_*📍[Rules for Wave Md usage]📍*_\n\n\n*>>>* use -support to get the Official group link in your dm.\n\n*--->* If you want to add Maria-Md in your group the contact the owner by *-owner/-mods* \n\n*--->* Dont use wrong command, use the command given in the *-help* list \n\n* Dont spam the bot with commands if Maria-Md is not responding, its means the maybe owner is offline or facing internet issue. \n\n*IF YOU DONT FOLLOW THE RULES THEN YOU WILL BE BANNED* 🚫 \n\n\n*©️ Ayush Bots inc* `
+        const helptxt = `_*📍[Rules for Wave Md usage]📍*_\n\n\n*>>>* use -support to get the Official group link in your dm.\n\n*--->* If you want to add Wave-MD in your group the contact the owner by *-owner/-mods* \n\n*--->* Dont use wrong command, use the command given in the *-help* list \n\n* Dont spam the bot with commands if Wave-MD is not responding, its means the maybe owner is offline or facing internet issue. \n\n*IF YOU DONT FOLLOW THE RULES THEN YOU WILL BE BANNED* 🚫 \n\n\n*©️ Ayush Bots inc* `
 
         Maria.sendMessage(from, { video: { url: 'https://c.tenor.com/geMdtLCXZkAAAAPo/rules.mp4' }, gifPlayback: true, caption: helptxt }, { quoted: m })
 
@@ -1464,7 +1464,7 @@ Maria.sendMessage(from, { react: { text: "🤖", key: m.key }})
      
         let tex = `📍Welcome to My Developer's Hub!📍
 
-https://chat.whatsapp.com/Jllsl2OaQNoBjepxzuVsZM`
+https://chat.whatsapp.com/BrQNE6Xas4yKtJqEI3R2A5`
 
         await Maria.sendMessage(m.sender,{ image: {url: "./Gallery/sup.jpg"}, caption: `${tex}` },);
 
@@ -1765,7 +1765,7 @@ case 'truth':
 │⋊ 𝕓𝕠𝕥 ℕ𝕒𝕞𝕖: Wave-MD
 │⋊ ℙ𝕣𝕖𝕗𝕚𝕩:  ${prefix}
 │⋊ 𝕆𝕨𝕟𝕖𝕣: ${prefix}owner
-│⋊ 𝕆𝕗𝕗𝕚𝕔𝕚𝕒𝕝 𝔾𝕣𝕠𝕦𝕡: http://gg.gg/Maria-support
+│⋊ 𝕆𝕗𝕗𝕚𝕔𝕚𝕒𝕝 𝔾𝕣𝕠𝕦𝕡: https://chat.whatsapp.com/BrQNE6Xas4yKtJqEI3R2A5
 ╰────────────┈平和
 Here's the list of my Commands.🔖
 ${readmore}
@@ -2182,7 +2182,7 @@ break
 
 
 case 'git': case 'gitclone':
-if (!args[0]) return reply(`Where is the link?\nExample :\n${prefix}${command} https://github.com/AYUSH-PANDEY023/Maria-Md `)
+if (!args[0]) return reply(`Where is the link?\nExample :\n${prefix}${command} https://github.com/Kyle6012/Wave-MD `)
 if (!isUrl(args[0]) && !args[0].includes('github.com')) return replygcMaria(`Link invalid!!`)
 let regex1 = /(?:https|git)(?::\/\/|@)github\.com[\/:]([^\/:]+)\/(.+)/i
     let [, user, repo] = args[0].match(regex1) || []
