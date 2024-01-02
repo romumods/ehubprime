@@ -95,6 +95,8 @@ apt upgrade
 
 pkg update && pkg upgrade
 
+apt install yarn -y
+
 pkg install bash
 
 pkg install libwebp
@@ -114,8 +116,6 @@ pkg install imagemagick -y
 git clone https://github.com/Kyle6012/Wave-MD
 
 cd Wave-MD
-
-yarn install
 
 rm -rf session 
 
