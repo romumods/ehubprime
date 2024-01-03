@@ -1,7 +1,7 @@
 {
-    "name": "Wave-MD",
+    "name": "EntertainHub Bot",
     "description": "A WhatsApp bot based on Baileysjs with Multi-Device support",
-    "repository": "https://github.com/Kyle6012/Wave-MD",
+    "repository": "https://github.com/romumods/ehubprime",
     "logo": "https://telegra.ph/file/351133422917a8bd7d776.jpg",
     "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp automation", "multi device"],
     "buildpacks": [
