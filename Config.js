@@ -2,25 +2,25 @@ const fs = require('fs')
 const chalk = require('chalk')
 
 //contact details
-global.ownernumber =  "254791811982"
-global.ownername = "Bealth-Wave Company"
-global.ytname = "YT: Bealth.inc"
-global.socialm = "GitHub: Kyle6012"
-global.location = "Kenyan"
+global.ownernumber =  "265886949444"
+global.ownername = "Ehubprime Company"
+global.ytname = "YT: @ehubprime"
+global.socialm = "GitHub: romumods"
+global.location = "malawian"
 
-global.ownername = 'Kyle Meshack' //owner name
-global.botname = 'WAVE-𝐌𝐃' //name of the bot
+global.ownername = 'Romu' //owner name
+global.botname = 'EntertainHub Tv' //name of the bot
 
 //sticker details
-global.stickername = 'Bealth-Wave Company_✰'
+global.stickername = 'Ehub Tv Company_✰'
 global.packname = 'Sticker By'
-global.author = 'Bealth Guy'
+global.author = 'Ehub tv'
 //console view/theme
 global.themeemoji = '🧩'
-global.wm = "Bealth Guy."
+global.wm = "Ehub Guy."
 
 //theme link
-global.link = 'www.instagram.com/bealth.guy/'
+global.link = 'www.tiktok.com/@ehubprime/'
 
 //custom prefix
 global.prefa = ['.']
