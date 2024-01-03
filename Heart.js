@@ -329,7 +329,7 @@ if (smallinput.includes(`afternoon`)) {
                   
                   if (smallinput.includes(`morning`)) {
 
-                  reply(`good morning ${pushname}', `)
+                  reply(`good morning ${pushname}, remember to follow us on tiktok for more entertainment and funny videos. Here's the link- tiktok.com/@ehubprime', `)
 
                   }
 
@@ -347,13 +347,13 @@ if (smallinput.includes(`afternoon`)) {
                   
                                                               if (smallinput.includes(`Intro ?`)) {
 
-                  reply(`i am Wave BOT, a whatsapp bot created by Bealth Guy, maybe am not the one whom u asked but i just want u to knw that i am a bot, type #menu to see all available features😊`)
+                  reply(`i am EHUB BOT, a whatsapp bot created by Ehub Tv, maybe am not the one whom u asked but i just want u to knw that i am a bot, type #menu to see all available features😊`)
 
                   }
 
        if (smallinput.includes(`Maria`)) {
 
-         reply(`Hello there friend  WaveBOT here😁.\ntype😊👉${prefix}menu`)
+         reply(`Hello there friend  EntertainHub here😁 tiktok.com/@ehubprime.\ntype😊👉${prefix}menu`)
 
                   }     
 
@@ -365,13 +365,13 @@ if (smallinput.includes(`afternoon`)) {
 
        if (smallinput.includes(`Bot`)) {
 
-         reply(`Hello there friend Wave Bot here😁.\ntype😊👉${prefix}menu`)
+         reply(`Hello there friend EntertainHub here😁.\ntype😊👉${prefix}menu`)
 
                   }     
 
        if (smallinput.includes(`bot`)) {
 
-         reply(`Hello there friend Wave Bot here😁.\ntype😊👉${prefix}menu`)
+         reply(`Hello there friend EntertainHub here😁 tiktok.com/@ehubprime.\ntype😊👉${prefix}menu`)
 
                   }     
 
@@ -390,7 +390,7 @@ if (smallinput.includes(`afternoon`)) {
 
        if (smallinput.includes(`Hi`)) {
 
-                  reply(`Hello,😊 how are you?`)
+                  reply(`Hello,😊 how are you? remember to follow us on tiktok for more entertainment and funny videos. Here's the link- tiktok.com/@ehubprime`)
 
                   }
 
@@ -436,7 +436,7 @@ if (smallinput.includes(`afternoon`)) {
 
 		if (smallinput.includes(`Hello`)) {
 
-                  reply(`hello🖐️🖐️ ${pushname}`)
+                  reply(`hello🖐️🖐️ ${pushname}, remember to follow us on tiktok for more entertainment and funny videos. Here's the link- tiktok.com/@ehubprime`)
 
   
   
@@ -1007,7 +1007,7 @@ case 'tag': case 'tagall': case 'all':{
           let response = await Maria.groupInviteCode(m.chat);
           Maria.sendText(
             m.sender,
-            ` 🤖𝐵𝑜𝑡 𝑛𝑎𝑚𝑒:- Wave Bot\n\n🔖𝐺𝑟𝑜𝑢𝑝 𝑛𝑎𝑚𝑒:- ${groupMetadata.subject}\n\n🔰𝐺𝑟𝑜𝑢𝑝 𝑙𝑖𝑛𝑘:- https://chat.whatsapp.com/${response}`,
+            ` 🤖𝐵𝑜𝑡 𝑛𝑎𝑚𝑒:- EntertainHub Tv Bot\n\n🔖𝐺𝑟𝑜𝑢𝑝 𝑛𝑎𝑚𝑒:- ${groupMetadata.subject}\n\n🔰𝐺𝑟𝑜𝑢𝑝 𝑙𝑖𝑛𝑘:- https://chat.whatsapp.com/${response}`,
             m,
             { detectLink: true }
           );
@@ -1033,15 +1033,15 @@ let repoInfo = await axios.get("https://api.github.com/repos/Kyle6012/Wave-MD");
         let repo = repoInfo.data;
         console.log(repo);
 
-   const scritxt = `*🚀Wave-𝑩𝒐𝒕-𝑺𝒄𝒓𝒊𝒑𝒕🚀*\n
-  *🌟Creator:* Bealth Guy\n
+   const scritxt = `*🚀Ehub-𝑩𝒐𝒕-𝑺𝒄𝒓𝒊𝒑𝒕🚀*\n
+  *🌟Creator:* Romu\n
   *🌟 Repo:* ${repo.html_url}\n
   *🌟 Total Forks:* ${repo.forks_count}\n
   *⭐ Total Stars:* ${repo.stargazers_count}\n
   *📁 Repo Size:* ${(repo.size/1024).toFixed(2)} MB\n
   *📅 Last Updated:* ${repo.updated_at}\n
  
-©️ *Bealth-Wave inc* 
+©️ *EntertainHub inc* 
 *❝ Dont forget to give a Star ⭐ to the repo.*`
 
         Maria.sendMessage(from, { video: { url: 'https://media.tenor.com/Zco-fadJri4AAAPo/code-matrix.mp4' }, gifPlayback: true, caption: scritxt }, { quoted: m })
@@ -1456,7 +1456,7 @@ Maria.sendMessage(from, { react: { text: "🤖", key: m.key }})
       case 'hii': case 'hi': case 'Hi':
        
         
-        let txxt = `👋🏻 Hi *${pushname}*, i am  *Wave-MD*📍\nA whatsapp bot created by: Bealth Guy \n\n I don't have time for chit-chat Darling. Use command from *${prefix}help* list if you want me to do anything.`
+        let txxt = `👋🏻 Hi *${pushname}*, i am  *EntertainHub Bot*📍\nA whatsapp bot created by: EntertainHub \n\n I don't have time for chit-chat Darling. Use command from *${prefix}help* list if you want me to do anything.`
 
         Maria.sendMessage(m.chat, { image: { url: "./Gallery/ch1.jpg" }, caption: txxt, gifPlayback: true }, { quoted: m });
         break
@@ -1464,7 +1464,7 @@ Maria.sendMessage(from, { react: { text: "🤖", key: m.key }})
      
         let tex = `📍Welcome to My Developer's Hub!📍
 
-https://chat.whatsapp.com/BrQNE6Xas4yKtJqEI3R2A5`
+https://tiktok.com/@ehubprime`
 
         await Maria.sendMessage(m.sender,{ image: {url: "./Gallery/sup.jpg"}, caption: `${tex}` },);
 
@@ -1473,12 +1473,12 @@ https://chat.whatsapp.com/BrQNE6Xas4yKtJqEI3R2A5`
 
       case "info":
             Maria.sendMessage(from, { react: { text: "ℹ️", key: m.key }}) 
-        let ifx = `🌟『Wave-MD』🌟
+        let ifx = `🌟『EntertainHub Tv』🌟
 *🌟Description:* A WhatsApp Bot With Rich  features based on Wave
 *🚦Uptime:* ${runtime(process.uptime())}
 *🕸Version:* 1.2.0
-*👤Creator:*  Bealth Guy\n
-*Powered by Bealth Guy`*
+*👤Creator:*  EntertainHub Tv\n
+*Powered by Romu`*
 Maria.sendMessage(m.chat, { image: { url: "./Gallery/ch3.jpg" }, caption: ifx, gifPlayback: true }, { quoted: m });
         break
 
@@ -1760,12 +1760,12 @@ case 'truth':
                            break
                            
   case 'menu': case 'help': case 'h': 
-  const txt = `╭─「 *Bealth-Wave* 」
+  const txt = `╭─「 *EntertainHub Tv* 」
 │⋊ 𝕌𝕤𝕖𝕣: *${pushname}* 
-│⋊ 𝕓𝕠𝕥 ℕ𝕒𝕞𝕖: Wave-MD
+│⋊ 𝕓𝕠𝕥 ℕ𝕒𝕞𝕖: EntertainHub Bot
 │⋊ ℙ𝕣𝕖𝕗𝕚𝕩:  ${prefix}
 │⋊ 𝕆𝕨𝕟𝕖𝕣: ${prefix}owner
-│⋊ 𝕆𝕗𝕗𝕚𝕔𝕚𝕒𝕝 𝔾𝕣𝕠𝕦𝕡: https://chat.whatsapp.com/BrQNE6Xas4yKtJqEI3R2A5
+│⋊ 𝕆𝕗𝕗𝕚𝕔𝕚𝕒𝕝: https://tiktok.com/@ehubprime
 ╰────────────┈平和
 Here's the list of my Commands.🔖
 ${readmore}
